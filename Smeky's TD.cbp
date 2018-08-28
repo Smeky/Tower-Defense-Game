@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Smeky&apos;s TD" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option platforms="Windows;" />
+				<Option output="bin/Release/Smeky&apos;s TD" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+					<Add directory="include/hud" />
+					<Add directory="include/entities" />
+					<Add directory="include/core" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++11" />
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="../_Libs/SDL2-2.0.3/i686-w64-mingw32/include/SDL2" />
+			<Add directory="../_Libs/freeglut/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmingw32" />
+			<Add option="-lSDL2main" />
+			<Add option="-lSDL2" />
+			<Add option="-lSDL2_image" />
+			<Add option="-lSDL2_mixer" />
+			<Add option="-lSDL2_ttf" />
+			<Add directory="../_Libs/SDL2-2.0.3/i686-w64-mingw32/lib" />
+			<Add directory="../_Libs/freeglut/lib" />
+		</Linker>
+		<Unit filename="include/AttackManager.h" />
+		<Unit filename="include/AttackSlow.h" />
+		<Unit filename="include/ButtonIcon.h" />
+		<Unit filename="include/ExpManager.h" />
+		<Unit filename="include/FireEffect.h" />
+		<Unit filename="include/IAttack.h" />
+		<Unit filename="include/IButton.h" />
+		<Unit filename="include/IEnemy.h" />
+		<Unit filename="include/IEntity.h" />
+		<Unit filename="include/IGameState.h" />
+		<Unit filename="include/ITower.h" />
+		<Unit filename="include/MenuState.h" />
+		<Unit filename="include/OptionsPgAudio.h" />
+		<Unit filename="include/OptionsPgVideo.h" />
+		<Unit filename="include/PlayState.h" />
+		<Unit filename="include/Talent.h" />
+		<Unit filename="include/TalentManager.h" />
+		<Unit filename="include/WaveDisplay.h" />
+		<Unit filename="include/WaveManager.h" />
+		<Unit filename="include/WaveSpawner.h" />
+		<Unit filename="include/core/Engine.h" />
+		<Unit filename="include/core/FontManager.h" />
+		<Unit filename="include/core/Level.h" />
+		<Unit filename="include/core/ResourceManager.h" />
+		<Unit filename="include/core/SDL2_gfxPrimitives.h" />
+		<Unit filename="include/core/SDL2_gfxPrimitives_font.h" />
+		<Unit filename="include/core/SDL2_imageFilter.h" />
+		<Unit filename="include/core/SDL2_rotozoom.h" />
+		<Unit filename="include/core/SaveManager.h" />
+		<Unit filename="include/core/SoundManager.h" />
+		<Unit filename="include/core/Texture.h" />
+		<Unit filename="include/core/TextureManager.h" />
+		<Unit filename="include/core/Tile.h" />
+		<Unit filename="include/core/Timer.h" />
+		<Unit filename="include/core/tinyxml2.h" />
+		<Unit filename="include/entities/IProjectile.h" />
+		<Unit filename="include/entities/TowerFramework.h" />
+		<Unit filename="include/entities/TurretCannon.h" />
+		<Unit filename="include/hud/ButtonCheckbox.h" />
+		<Unit filename="include/hud/ButtonLevel.h" />
+		<Unit filename="include/hud/ButtonMenu.h" />
+		<Unit filename="include/hud/ButtonMenuPage.h" />
+		<Unit filename="include/hud/ButtonNextwave.h" />
+		<Unit filename="include/hud/ButtonPause.h" />
+		<Unit filename="include/hud/ButtonTowerSelection.h" />
+		<Unit filename="include/hud/ButtonUpgs.h" />
+		<Unit filename="include/hud/GameoverMenu.h" />
+		<Unit filename="include/hud/LevelManager.h" />
+		<Unit filename="include/hud/MenuMain.h" />
+		<Unit filename="include/hud/MenuOptions.h" />
+		<Unit filename="include/hud/MenuPage.h" />
+		<Unit filename="include/hud/MenuPlay.h" />
+		<Unit filename="include/hud/PauseMenu.h" />
+		<Unit filename="include/hud/SideMenu.h" />
+		<Unit filename="include/hud/Slider.h" />
+		<Unit filename="include/hud/SliderButton.h" />
+		<Unit filename="include/hud/TargetTower.h" />
+		<Unit filename="include/hud/TooltipDescription.h" />
+		<Unit filename="include/hud/TooltipManager.h" />
+		<Unit filename="include/hud/TooltipWarning.h" />
+		<Unit filename="include/hud/TrackerHealth.h" />
+		<Unit filename="include/hud/TrackerMoney.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/AttackManager.cpp" />
+		<Unit filename="src/ButtonIcon.cpp" />
+		<Unit filename="src/ExpManager.cpp" />
+		<Unit filename="src/FireEffect.cpp" />
+		<Unit filename="src/IButton.cpp" />
+		<Unit filename="src/IEnemy.cpp" />
+		<Unit filename="src/ITower.cpp" />
+		<Unit filename="src/MenuState.cpp" />
+		<Unit filename="src/OptionsPgAudio.cpp" />
+		<Unit filename="src/OptionsPgVideo.cpp" />
+		<Unit filename="src/PlayState.cpp" />
+		<Unit filename="src/Talent.cpp" />
+		<Unit filename="src/TalentManager.cpp" />
+		<Unit filename="src/WaveDisplay.cpp" />
+		<Unit filename="src/WaveManager.cpp" />
+		<Unit filename="src/WaveSpawner.cpp" />
+		<Unit filename="src/core/Engine.cpp" />
+		<Unit filename="src/core/FontManager.cpp" />
+		<Unit filename="src/core/Level.cpp" />
+		<Unit filename="src/core/ResourceManager.cpp" />
+		<Unit filename="src/core/SDL2_gfxPrimitives.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/core/SDL2_imageFilter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/core/SDL2_rotozoom.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/core/SaveManager.cpp" />
+		<Unit filename="src/core/SoundManager.cpp" />
+		<Unit filename="src/core/Texture.cpp" />
+		<Unit filename="src/core/TextureManager.cpp" />
+		<Unit filename="src/core/Tile.cpp" />
+		<Unit filename="src/core/Timer.cpp" />
+		<Unit filename="src/core/tinyxml2.cpp" />
+		<Unit filename="src/entities/IProjectile.cpp" />
+		<Unit filename="src/entities/TowerFramework.cpp" />
+		<Unit filename="src/entities/TurretCannon.cpp" />
+		<Unit filename="src/hud/ButtonCheckbox.cpp" />
+		<Unit filename="src/hud/ButtonLevel.cpp" />
+		<Unit filename="src/hud/ButtonMenu.cpp" />
+		<Unit filename="src/hud/ButtonMenuPage.cpp" />
+		<Unit filename="src/hud/ButtonNextwave.cpp" />
+		<Unit filename="src/hud/ButtonPause.cpp" />
+		<Unit filename="src/hud/ButtonTowerSelection.cpp" />
+		<Unit filename="src/hud/ButtonUpgs.cpp" />
+		<Unit filename="src/hud/GameoverMenu.cpp" />
+		<Unit filename="src/hud/LevelManager.cpp" />
+		<Unit filename="src/hud/MenuMain.cpp" />
+		<Unit filename="src/hud/MenuOptions.cpp" />
+		<Unit filename="src/hud/MenuPage.cpp" />
+		<Unit filename="src/hud/MenuPlay.cpp" />
+		<Unit filename="src/hud/PauseMenu.cpp" />
+		<Unit filename="src/hud/SideMenu.cpp" />
+		<Unit filename="src/hud/Slider.cpp" />
+		<Unit filename="src/hud/SliderButton.cpp" />
+		<Unit filename="src/hud/TargetTower.cpp" />
+		<Unit filename="src/hud/TooltipDescription.cpp" />
+		<Unit filename="src/hud/TooltipManager.cpp" />
+		<Unit filename="src/hud/TooltipWarning.cpp" />
+		<Unit filename="src/hud/TrackerHealth.cpp" />
+		<Unit filename="src/hud/TrackerMoney.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

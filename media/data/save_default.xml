@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<settings>
+  <resolution w="1280" h="720" />
+  <vsync on="1" />  
+</settings>
+<game>
+  <player lv="1" exp="0" />
+  <levels>
+    <level id="0" unlocked="1" defeated="0" path="media/data/level_1.tmx" />
+    <level id="1" unlocked="0" defeated="0" path="media/data/level_2.tmx" />
+    <level id="2" unlocked="0" defeated="0" path="media/data/level_3.tmx" />
+  </levels>
+  <talents>
+    <talent id="0" amount="0"/>
+    <talent id="1" amount="0"/>
+    <talent id="2" amount="0"/>
+  </talents>
+</game>

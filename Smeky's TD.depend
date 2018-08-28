@@ -1,0 +1,1965 @@
+# depslib dependency file v1.0
+1415638214 source:c:\users\smeky\desktop\programming\smeky's td\main.cpp
+	"core\Engine.h"
+	"PlayState.h"
+	"MenuState.h"
+
+1415541844 c:\users\smeky\desktop\programming\smeky's td\include\engine.h
+	"SDL.h"
+	"SDL_image.h"
+	"SDL_mixer.h"
+	"SDL_ttf.h"
+	"string"
+	"vector"
+	"TextureManager.h"
+	"SoundManager.h"
+	"FontManager.h"
+
+1394937196 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1394937198 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1407073650 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\begin_code.h
+
+1394937198 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\close_code.h
+
+1394937196 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1394937196 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1394937198 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1394937198 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1394937196 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1394937196 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376152742 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1415541409 source:c:\users\smeky\desktop\programming\smeky's td\src\engine.cpp
+	"Engine.h"
+	"IGameState.h"
+	"sstream"
+	"math.h"
+	"iostream"
+
+1419605719 c:\users\smeky\desktop\programming\smeky's td\include\igamestate.h
+	"core\Engine.h"
+	"IGameState.inl"
+
+1417971579 source:c:\users\smeky\desktop\programming\smeky's td\src\playstate.cpp
+	"PlayState.h"
+	"algorithm"
+	"math.h"
+	"sstream"
+	"IAttack.h"
+	"iostream"
+
+1417970300 c:\users\smeky\desktop\programming\smeky's td\include\playstate.h
+	"IGameState.h"
+	"core/Timer.h"
+	"core/Level.h"
+	"WaveManager.h"
+	"AttackManager.h"
+	"IEnemy.h"
+	"ITower.h"
+	"entities/IProjectile.h"
+	"entities/TowerFramework.h"
+	"hud/SideMenu.h"
+	"hud/PauseMenu.h"
+	"hud/GameoverMenu.h"
+	"hud/TrackerMoney.h"
+	"hud/TrackerHealth.h"
+	"hud/TooltipManager.h"
+	"hud/TargetTower.h"
+
+1414153384 c:\users\smeky\desktop\programming\smeky's td\include\texturecontainer.h
+	"map"
+	"vector"
+	"Texture.h"
+
+1415465060 c:\users\smeky\desktop\programming\smeky's td\include\texture.h
+	"SDL.h"
+	"SDL_image.h"
+	"SDL_ttf.h"
+	"string"
+	"vector"
+
+1415465058 source:c:\users\smeky\desktop\programming\smeky's td\src\texture.cpp
+	"Texture.h"
+	"cstring"
+	"iostream"
+
+1414153422 source:c:\users\smeky\desktop\programming\smeky's td\src\texturecontainer.cpp
+	"TextureContainer.h"
+	"Engine.h"
+	"iostream"
+
+1415464704 c:\users\smeky\desktop\programming\smeky's td\include\texturemanager.h
+	"Texture.h"
+	"map"
+
+1415464755 source:c:\users\smeky\desktop\programming\smeky's td\src\texturemanager.cpp
+	"TextureManager.h"
+	"Engine.h"
+	"iostream"
+	"tinyxml2.h"
+
+1415542527 source:c:\users\smeky\desktop\programming\smeky's td\src\level.cpp
+	"Level.h"
+	"iostream"
+	"cstdlib"
+	"tinyxml2.h"
+
+1415442942 c:\users\smeky\desktop\programming\smeky's td\include\level.h
+	"SDL.h"
+	"vector"
+	"string"
+	"Engine.h"
+	"Tile.h"
+
+1414169172 c:\users\smeky\desktop\programming\smeky's td\include\tile.h
+	"SDL.h"
+	"Engine.h"
+
+1415446320 source:c:\users\smeky\desktop\programming\smeky's td\src\tile.cpp
+	"Tile.h"
+
+1415477409 source:c:\users\smeky\desktop\programming\smeky's td\src\enemytripod.cpp
+	"EnemyTripod.h"
+
+1415479052 c:\users\smeky\desktop\programming\smeky's td\include\enemytripod.h
+	"IEnemy.h"
+
+1417524045 c:\users\smeky\desktop\programming\smeky's td\include\ienemy.h
+	"IEntity.h"
+	"vector"
+
+1417367159 c:\users\smeky\desktop\programming\smeky's td\include\ientity.h
+	"core\Engine.h"
+
+1414232213 c:\users\smeky\desktop\programming\smeky's td\include\timer.h
+	"SDL.h"
+
+1414233310 source:c:\users\smeky\desktop\programming\smeky's td\src\timer.cpp
+	"Timer.h"
+
+1414263804 c:\users\smeky\desktop\programming\smeky's td\include\tinyxml2.h
+	<ctype.h>
+	<limits.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdarg.h>
+	<cctype>
+	<climits>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<cstdarg>
+	<android/log.h>
+	<assert.h>
+
+1414263793 source:c:\users\smeky\desktop\programming\smeky's td\src\tinyxml2.cpp
+	"tinyxml2.h"
+	<new>
+	<stddef.h>
+	<cstddef>
+
+1414524845 source:c:\users\jana\downloads\thegame\smeky's td\main.cpp
+	"Engine.h"
+	"PlayState.h"
+
+1414160191 c:\users\jana\downloads\thegame\smeky's td\include\engine.h
+	"SDL.h"
+	"SDL_image.h"
+	"string"
+	"vector"
+	"TextureManager.h"
+
+1394937196 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1394937198 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1407073650 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\begin_code.h
+
+1394937198 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\close_code.h
+
+1394937196 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1394937196 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1394937198 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1394937198 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1394937196 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1394937196 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376152742 c:\users\jana\downloads\thegame\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1414150027 c:\users\jana\downloads\thegame\smeky's td\include\texturemanager.h
+	"map"
+	"vector"
+	"Texture.h"
+
+1414095373 c:\users\jana\downloads\thegame\smeky's td\include\texture.h
+	"SDL.h"
+	"SDL_image.h"
+	"string"
+	"vector"
+
+1414528316 c:\users\jana\downloads\thegame\smeky's td\include\playstate.h
+	"IGameState.h"
+	"Level.h"
+	"IEnemy.h"
+	"ITower.h"
+	"Timer.h"
+
+1414089907 c:\users\jana\downloads\thegame\smeky's td\include\igamestate.h
+	"Engine.h"
+
+1414528613 c:\users\jana\downloads\thegame\smeky's td\include\level.h
+	"SDL.h"
+	"vector"
+	"string"
+	"Engine.h"
+	"Tile.h"
+
+1414169172 c:\users\jana\downloads\thegame\smeky's td\include\tile.h
+	"SDL.h"
+	"Engine.h"
+
+1414527347 c:\users\jana\downloads\thegame\smeky's td\include\ienemy.h
+	"IEntity.h"
+	"vector"
+
+1414232663 c:\users\jana\downloads\thegame\smeky's td\include\ientity.h
+	"Engine.h"
+
+1414353523 c:\users\jana\downloads\thegame\smeky's td\include\enemytripod.h
+	"IEnemy.h"
+
+1414232213 c:\users\jana\downloads\thegame\smeky's td\include\timer.h
+	"SDL.h"
+
+1414445794 source:c:\users\jana\downloads\thegame\smeky's td\src\enemytripod.cpp
+	"EnemyTripod.h"
+
+1414526675 source:c:\users\jana\downloads\thegame\smeky's td\src\engine.cpp
+	"Engine.h"
+	"IGameState.h"
+	"iostream"
+
+1414095549 source:c:\users\jana\downloads\thegame\smeky's td\src\texture.cpp
+	"Texture.h"
+	"cstring"
+	"iostream"
+
+1414525703 source:c:\users\jana\downloads\thegame\smeky's td\src\texturemanager.cpp
+	"TextureManager.h"
+	"Engine.h"
+	"iostream"
+
+1414169261 source:c:\users\jana\downloads\thegame\smeky's td\src\tile.cpp
+	"Tile.h"
+	"iostream"
+
+1414233310 source:c:\users\jana\downloads\thegame\smeky's td\src\timer.cpp
+	"Timer.h"
+
+1414263793 source:c:\users\jana\downloads\thegame\smeky's td\src\tinyxml2.cpp
+	"tinyxml2.h"
+	<new>
+	<stddef.h>
+	<cstddef>
+
+1414263804 c:\users\jana\downloads\thegame\smeky's td\include\tinyxml2.h
+	<ctype.h>
+	<limits.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdarg.h>
+	<cctype>
+	<climits>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<cstdarg>
+	<android/log.h>
+	<assert.h>
+
+1414528392 source:c:\users\jana\downloads\thegame\smeky's td\src\level.cpp
+	"Level.h"
+	"iostream"
+	"cstdlib"
+	"tinyxml2.h"
+
+1414528790 source:c:\users\jana\downloads\thegame\smeky's td\src\playstate.cpp
+	"PlayState.h"
+	"iostream"
+	"EnemyTripod.h"
+	"EnemyBasic.h"
+	"TowerLaser.h"
+
+1414353506 source:c:\users\jana\downloads\thegame\smeky's td\src\ienemy.cpp
+	"IEnemy.h"
+	"iostream"
+
+1414357207 c:\users\jana\downloads\thegame\smeky's td\include\enemybasic.h
+	"IEnemy.h"
+
+1414357720 source:c:\users\jana\downloads\thegame\smeky's td\src\enemybasic.cpp
+	"EnemyBasic.h"
+
+1414527399 c:\users\jana\downloads\thegame\smeky's td\include\itower.h
+	"IEntity.h"
+
+1414527549 source:c:\users\jana\downloads\thegame\smeky's td\src\towerlaser.cpp
+	"TowerLaser.h"
+
+1414527602 c:\users\jana\downloads\thegame\smeky's td\include\towerlaser.h
+	"ITower.h"
+
+1417526330 c:\users\smeky\desktop\programming\smeky's td\include\itower.h
+	"IEntity.h"
+	"IEnemy.h"
+
+1414357720 source:c:\users\smeky\desktop\programming\smeky's td\src\enemybasic.cpp
+	"EnemyBasic.h"
+
+1414705642 c:\users\smeky\desktop\programming\smeky's td\include\enemybasic.h
+	"IEnemy.h"
+
+1417548012 source:c:\users\smeky\desktop\programming\smeky's td\src\ienemy.cpp
+	"IEnemy.h"
+	"iostream"
+
+1415635244 c:\users\smeky\desktop\programming\smeky's td\include\towerlaser.h
+	"ITower.h"
+
+1415635240 source:c:\users\smeky\desktop\programming\smeky's td\src\towerlaser.cpp
+	"TowerLaser.h"
+
+1417534914 c:\users\smeky\desktop\programming\smeky's td\include\iprojectile.h
+	"IEntity.h"
+	"IEnemy.h"
+	"IAttack.h"
+	"TowerFramework.h"
+
+1417535162 source:c:\users\smeky\desktop\programming\smeky's td\src\iprojectile.cpp
+	"IProjectile.h"
+	"math.h"
+	"iostream"
+
+1415478249 source:c:\users\smeky\desktop\programming\smeky's td\src\projectileplasma.cpp
+	"ProjectilePlasma.h"
+
+1415478229 c:\users\smeky\desktop\programming\smeky's td\include\projectileplasma.h
+	"IProjectile.h"
+
+1415734367 source:c:\users\smeky\desktop\programming\smeky's td\src\itower.cpp
+	"ITower.h"
+	"math.h"
+	"iostream"
+
+1418556226 c:\users\smeky\desktop\programming\smeky's td\include\ibutton.h
+	"Engine.h"
+
+1415208747 source:c:\users\smeky\desktop\programming\smeky's td\src\buttonpause.cpp
+	"ButtonPause.h"
+
+1415203069 c:\users\smeky\desktop\programming\smeky's td\include\buttonpause.h
+	"IButton.h"
+
+1418515426 source:c:\users\smeky\desktop\programming\smeky's td\src\ibutton.cpp
+	"IButton.h"
+	"iostream"
+
+1414799067 c:\users\smeky\desktop\programming\smeky's td\include\pausestate.h
+	"IGameState.h"
+
+1414798949 source:c:\users\smeky\desktop\programming\smeky's td\src\pausestate.cpp
+	"PauseState.h"
+
+1414808899 c:\users\smeky\desktop\programming\smeky's td\include\font.h
+	"Texture.h"
+
+1414808963 source:c:\users\smeky\desktop\programming\smeky's td\src\font.cpp
+	"Font.h"
+	"Engine.h"
+	"iostream"
+
+1376152944 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1414837193 source:c:\users\smeky\desktop\programming\smeky's td\src\textmanager.cpp
+	"TextManager.h"
+	"Engine.h"
+
+1414836886 c:\users\smeky\desktop\programming\smeky's td\include\textmanager.h
+	"SDL_ttf.h"
+	"map"
+	"Texture.h"
+
+1415467241 c:\users\smeky\desktop\programming\smeky's td\include\fontmanager.h
+	"SDL_ttf.h"
+	"map"
+	"string"
+
+1415571148 source:c:\users\smeky\desktop\programming\smeky's td\src\fontmanager.cpp
+	"FontManager.h"
+	"iostream"
+
+1415564312 source:c:\users\smeky\desktop\programming\smeky's td\src\sidemenu.cpp
+	"SideMenu.h"
+	"PlayState.h"
+	"ButtonPause.h"
+	"ButtonTowerPlasma.h"
+	"ButtonTowerBeam.h"
+	"ButtonTowerSlower.h"
+	"ButtonNextwave.h"
+	"iostream"
+
+1415555929 c:\users\smeky\desktop\programming\smeky's td\include\sidemenu.h
+	"IButton.h"
+
+1415396676 c:\users\smeky\desktop\programming\smeky's td\include\pausemenu.h
+	"IGameState.h"
+	"IButton.h"
+
+1415203088 source:c:\users\smeky\desktop\programming\smeky's td\src\buttonresume.cpp
+	"ButtonResume.h"
+	"PlayState.h"
+
+1415203071 c:\users\smeky\desktop\programming\smeky's td\include\buttonresume.h
+	"IButton.h"
+
+1415540670 source:c:\users\smeky\desktop\programming\smeky's td\src\pausemenu.cpp
+	"PauseMenu.h"
+	"ButtonMenu.h"
+	"MenuState.h"
+	"iostream"
+
+1415203081 source:c:\users\smeky\desktop\programming\smeky's td\src\buttonexit.cpp
+	"ButtonExit.h"
+	"PlayState.h"
+
+1415203050 c:\users\smeky\desktop\programming\smeky's td\include\buttonexit.h
+	"IButton.h"
+
+1415310809 c:\users\smeky\desktop\programming\smeky's td\include\trackermoney.h
+	"Engine.h"
+
+1415311249 source:c:\users\smeky\desktop\programming\smeky's td\src\trackermoney.cpp
+	"TrackerMoney.h"
+	"iostream"
+
+1415203042 c:\users\smeky\desktop\programming\smeky's td\include\buttonrestart.h
+	"IButton.h"
+
+1415203085 source:c:\users\smeky\desktop\programming\smeky's td\src\buttonrestart.cpp
+	"ButtonRestart.h"
+	"PlayState.h"
+
+1414872911 source:c:\users\smeky\desktop\programming\smeky's td\src\buttontowerlaser.cpp
+	"ButtonTowerLaser.h"
+
+1414872923 c:\users\smeky\desktop\programming\smeky's td\include\buttontowerlaser.h
+	"IButtonTower.h"
+
+1415310729 c:\users\smeky\desktop\programming\smeky's td\include\trackerhealth.h
+	"Engine.h"
+
+1415558998 source:c:\users\smeky\desktop\programming\smeky's td\src\trackerhealth.cpp
+	"TrackerHealth.h"
+
+1414877132 c:\users\smeky\desktop\programming\smeky's td\include\ibuttontower.h
+	"Engine.h"
+
+1414877166 source:c:\users\smeky\desktop\programming\smeky's td\src\ibuttontower.cpp
+	"IButtonTower.h"
+	"iostream"
+
+1415543483 source:c:\users\smeky\desktop\programming\smeky's td\src\buttontowerplasma.cpp
+	"ButtonTowerPlasma.h"
+
+1415543240 c:\users\smeky\desktop\programming\smeky's td\include\buttontowerplasma.h
+	"IButton.h"
+
+1415547221 source:c:\users\smeky\desktop\programming\smeky's td\src\buttontowerbeam.cpp
+	"ButtonTowerBeam.h"
+
+1415543555 c:\users\smeky\desktop\programming\smeky's td\include\buttontowerbeam.h
+	"IButton.h"
+
+1415635273 source:c:\users\smeky\desktop\programming\smeky's td\src\towerbeam.cpp
+	"TowerBeam.h"
+
+1415635294 c:\users\smeky\desktop\programming\smeky's td\include\towerbeam.h
+	"ITower.h"
+
+1414954310 source:c:\users\smeky\desktop\programming\smeky's td\src\tooltipbuttontower.cpp
+	"TooltipButtonTower.h"
+
+1414956000 c:\users\smeky\desktop\programming\smeky's td\include\tooltipbuttontower.h
+	"Engine.h"
+	"Texture.h"
+
+1415478224 c:\users\smeky\desktop\programming\smeky's td\include\projectilebeam.h
+	"IProjectile.h"
+
+1415478243 source:c:\users\smeky\desktop\programming\smeky's td\src\projectilebeam.cpp
+	"ProjectileBeam.h"
+	"math.h"
+	"iostream"
+
+1376152826 c:\users\smeky\desktop\programming\_libs\sdl2-2.0.3\i686-w64-mingw32\include\sdl2\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1415548002 c:\users\smeky\desktop\programming\smeky's td\include\soundmanager.h
+	"SDL_mixer.h"
+	"map"
+	"string"
+
+1415548142 source:c:\users\smeky\desktop\programming\smeky's td\src\soundmanager.cpp
+	"SoundManager.h"
+	"Engine.h"
+	"iostream"
+
+1417292039 c:\users\smeky\desktop\programming\smeky's td\include\wavemanager.h
+	"WaveSpawner.h"
+	"WaveDisplay.h"
+	"TooltipManager.h"
+
+1417349905 source:c:\users\smeky\desktop\programming\smeky's td\src\wavemanager.cpp
+	"WaveManager.h"
+	"iostream"
+	"core\tinyxml2.h"
+
+1415203124 c:\users\smeky\desktop\programming\smeky's td\include\gameovermenu.h
+	"IGameState.h"
+	"IButton.h"
+
+1415441833 source:c:\users\smeky\desktop\programming\smeky's td\src\gameovermenu.cpp
+	"GameoverMenu.h"
+	"ButtonMenu.h"
+	"iostream"
+
+1415564344 source:c:\users\smeky\desktop\programming\smeky's td\src\enemysquare.cpp
+	"EnemySquare.h"
+
+1415479036 c:\users\smeky\desktop\programming\smeky's td\include\enemysquare.h
+	"IEnemy.h"
+
+1415477414 source:c:\users\smeky\desktop\programming\smeky's td\src\enemytriangle.cpp
+	"EnemyTriangle.h"
+
+1415479052 c:\users\smeky\desktop\programming\smeky's td\include\enemytriangle.h
+	"IEnemy.h"
+
+1415477412 source:c:\users\smeky\desktop\programming\smeky's td\src\enemycircle.cpp
+	"EnemyCircle.h"
+
+1415479052 c:\users\smeky\desktop\programming\smeky's td\include\enemycircle.h
+	"IEnemy.h"
+
+1415477413 source:c:\users\smeky\desktop\programming\smeky's td\src\enemyquatropod.cpp
+	"EnemyQuatropod.h"
+
+1415479052 c:\users\smeky\desktop\programming\smeky's td\include\enemyquatropod.h
+	"IEnemy.h"
+
+1415208725 c:\users\smeky\desktop\programming\smeky's td\include\buttonnextwave.h
+	"IButton.h"
+
+1415228663 source:c:\users\smeky\desktop\programming\smeky's td\src\buttonnextwave.cpp
+	"ButtonNextwave.h"
+
+1417261258 c:\users\smeky\desktop\programming\smeky's td\include\wavespawner.h
+	"Engine.h"
+
+1417261582 source:c:\users\smeky\desktop\programming\smeky's td\src\wavespawner.cpp
+	"WaveSpawner.h"
+	"iostream"
+
+1417291204 c:\users\smeky\desktop\programming\smeky's td\include\wavedisplay.h
+	"string"
+	"IButton.h"
+
+1417290806 source:c:\users\smeky\desktop\programming\smeky's td\src\wavedisplay.cpp
+	"WaveDisplay.h"
+	"iostream"
+
+1415545574 source:c:\users\smeky\desktop\programming\smeky's td\src\menulevels.cpp
+	"MenuLevels.h"
+	"MenuState.h"
+	"ButtonMenu.h"
+	"ButtonLevel.h"
+	"PlayState.h"
+	"iostream"
+
+1415396240 c:\users\smeky\desktop\programming\smeky's td\include\menulevels.h
+	"IButton.h"
+
+1417258675 source:c:\users\smeky\desktop\programming\smeky's td\src\menustate.cpp
+	"MenuState.h"
+	"PlayState.h"
+	"math.h"
+	"iostream"
+
+1417119498 c:\users\smeky\desktop\programming\smeky's td\include\menustate.h
+	"IGameState.h"
+	"core/Timer.h"
+	"hud/MenuMain.h"
+	"hud/MenuPlay.h"
+	"hud/MenuOptions.h"
+	"hud/TooltipManager.h"
+
+1415463518 c:\users\smeky\desktop\programming\smeky's td\include\menumain.h
+	"IButton.h"
+	"TooltipManager.h"
+
+1415570802 source:c:\users\smeky\desktop\programming\smeky's td\src\buttonmenu.cpp
+	"ButtonMenu.h"
+
+1415386585 c:\users\smeky\desktop\programming\smeky's td\include\buttonmenu.h
+	"IButton.h"
+
+1415548094 source:c:\users\smeky\desktop\programming\smeky's td\src\menumain.cpp
+	"MenuMain.h"
+	"MenuState.h"
+	"ButtonMenu.h"
+	"PlayState.h"
+	"iostream"
+
+1415545648 c:\users\smeky\desktop\programming\smeky's td\include\buttonlevel.h
+	"IButton.h"
+
+1415545879 source:c:\users\smeky\desktop\programming\smeky's td\src\buttonlevel.cpp
+	"ButtonLevel.h"
+
+1415468078 source:c:\users\smeky\desktop\programming\smeky's td\src\tooltipmessage.cpp
+	"TooltipMessage.h"
+
+1415463233 c:\users\smeky\desktop\programming\smeky's td\include\tooltipmessage.h
+	"TooltipManager.h"
+
+1415629946 c:\users\smeky\desktop\programming\smeky's td\include\tooltipmanager.h
+	"Engine.h"
+
+1415466490 source:c:\users\smeky\desktop\programming\smeky's td\src\tooltipmanager.cpp
+	"TooltipManager.h"
+	"TooltipMessage.h"
+	"iostream"
+
+1415543897 source:c:\users\smeky\desktop\programming\smeky's td\src\buttontowerslower.cpp
+	"ButtonTowerSlower.h"
+
+1415543911 c:\users\smeky\desktop\programming\smeky's td\include\buttontowerslower.h
+	"IButton.h"
+
+1415635330 c:\users\smeky\desktop\programming\smeky's td\include\towerslower.h
+	"ITower.h"
+
+1415478671 c:\users\smeky\desktop\programming\smeky's td\include\projectileslower.h
+	"IProjectile.h"
+
+1415480530 source:c:\users\smeky\desktop\programming\smeky's td\src\projectileslower.cpp
+	"ProjectileSlower.h"
+
+1415635419 source:c:\users\smeky\desktop\programming\smeky's td\src\towerslower.cpp
+	"TowerSlower.h"
+
+1415483196 c:\users\smeky\desktop\programming\smeky's td\include\menuoptions.h
+	"IButton.h"
+
+1415541577 source:c:\users\smeky\desktop\programming\smeky's td\src\menuoptions.cpp
+	"MenuOptions.h"
+	"MenuState.h"
+	"ButtonMenu.h"
+	"iostream"
+
+1415558869 source:c:\users\smeky\desktop\programming\smeky's td\src\buttonsell.cpp
+	"ButtonSell.h"
+
+1415556229 c:\users\smeky\desktop\programming\smeky's td\include\buttonsell.h
+	"IButton.h"
+
+1414233310 source:c:\users\smeky\desktop\programming\smeky's td\src\util\timer.cpp
+	"Timer.h"
+
+1415638760 source:c:\users\smeky\desktop\programming\smeky's td\src\core\timer.cpp
+	"core\Timer.h"
+
+1415638760 source:c:\users\smeky\desktop\programming\smeky's td\src\core\fontmanager.cpp
+	"core\FontManager.h"
+	"iostream"
+
+1416739917 source:c:\users\smeky\desktop\programming\smeky's td\src\core\level.cpp
+	"core\Level.h"
+	"iostream"
+	"cstdlib"
+	"core\tinyxml2.h"
+
+1418510135 source:c:\users\smeky\desktop\programming\smeky's td\src\core\soundmanager.cpp
+	"core\SoundManager.h"
+	"core\Engine.h"
+	"iostream"
+
+1416660672 source:c:\users\smeky\desktop\programming\smeky's td\src\core\texture.cpp
+	"core\Texture.h"
+	"cstring"
+	"iostream"
+
+1417258661 source:c:\users\smeky\desktop\programming\smeky's td\src\core\texturemanager.cpp
+	"core\TextureManager.h"
+	"core\Engine.h"
+	"iostream"
+	"core\tinyxml2.h"
+
+1415967025 source:c:\users\smeky\desktop\programming\smeky's td\src\core\tile.cpp
+	"core\Tile.h"
+
+1415638760 source:c:\users\smeky\desktop\programming\smeky's td\src\core\tinyxml2.cpp
+	"core\tinyxml2.h"
+	<new>
+	<stddef.h>
+	<cstddef>
+
+1418569520 source:c:\users\smeky\desktop\programming\smeky's td\src\core\engine.cpp
+	"core/Engine.h"
+	"core/SDL2_gfxPrimitives.h"
+	"IGameState.h"
+	"sstream"
+	"math.h"
+	"iostream"
+
+1417258891 source:c:\users\smeky\desktop\programming\smeky's td\src\entities\enemycircle.cpp
+	"entities\EnemyCircle.h"
+
+1417258949 source:c:\users\smeky\desktop\programming\smeky's td\src\entities\enemyquatropod.cpp
+	"entities\EnemyQuatropod.h"
+
+1417258951 source:c:\users\smeky\desktop\programming\smeky's td\src\entities\enemysquare.cpp
+	"entities\EnemySquare.h"
+
+1417258947 source:c:\users\smeky\desktop\programming\smeky's td\src\entities\enemytriangle.cpp
+	"entities\EnemyTriangle.h"
+
+1417258944 source:c:\users\smeky\desktop\programming\smeky's td\src\entities\enemytripod.cpp
+	"entities\EnemyTripod.h"
+
+1417534020 source:c:\users\smeky\desktop\programming\smeky's td\src\entities\projectilebeam.cpp
+	"entities\ProjectileBeam.h"
+	"math.h"
+	"iostream"
+
+1417536808 source:c:\users\smeky\desktop\programming\smeky's td\src\entities\projectileplasma.cpp
+	"entities\ProjectilePlasma.h"
+
+1417535839 source:c:\users\smeky\desktop\programming\smeky's td\src\entities\projectileslower.cpp
+	"entities\ProjectileSlower.h"
+	"iostream"
+
+1415826461 source:c:\users\smeky\desktop\programming\smeky's td\src\entities\towerbeam.cpp
+	"entities\TowerBeam.h"
+
+1415964906 source:c:\users\smeky\desktop\programming\smeky's td\src\entities\towerlaser.cpp
+	"entities\TowerLaser.h"
+
+1415645577 source:c:\users\smeky\desktop\programming\smeky's td\src\entities\towerslower.cpp
+	"entities\TowerSlower.h"
+
+1415638529 source:c:\users\smeky\desktop\programming\smeky's td\src\hud\buttonexit.cpp
+	"hud\ButtonExit.h"
+	"PlayState.h"
+
+1417907654 source:c:\users\smeky\desktop\programming\smeky's td\src\hud\buttonlevel.cpp
+	"hud\ButtonLevel.h"
+
+1417119363 source:c:\users\smeky\desktop\programming\smeky's td\src\hud\buttonmenu.cpp
+	"hud\ButtonMenu.h"
+
+1415638617 source:c:\users\smeky\desktop\programming\smeky's td\src\hud\buttonnextwave.cpp
+	"hud\ButtonNextwave.h"
+
+1415640210 source:c:\users\smeky\desktop\programming\smeky's td\src\hud\buttonpause.cpp
+	"hud\ButtonPause.h"
+	"PlayState.h"
+
+1415638617 source:c:\users\smeky\desktop\programming\smeky's td\src\hud\buttonrestart.cpp
+	"hud\ButtonRestart.h"
+	"PlayState.h"
+
+1415638617 source:c:\users\smeky\desktop\programming\smeky's td\src\hud\buttonresume.cpp
+	"hud\ButtonResume.h"
+	"PlayState.h"
+
+1415638617 source:c:\users\smeky\desktop\programming\smeky's td\src\hud\buttonsell.cpp
+	"hud\ButtonSell.h"
+
+1415638617 source:c:\users\smeky\desktop\programming\smeky's td\src\hud\buttontowerbeam.cpp
+	"hud\ButtonTowerBeam.h"
+
+1415638617 source:c:\users\smeky\desktop\programming\smeky's td\src\hud\buttontowerplasma.cpp
+	"hud\ButtonTowerPlasma.h"
+
+1415638617 source:c:\users\smeky\desktop\programming\smeky's td\src\hud\buttontowerslower.cpp
+	"hud\ButtonTowerSlower.h"
+
+1417971576 source:c:\users\smeky\desktop\programming\smeky's td\src\hud\gameovermenu.cpp
+	"hud\GameoverMenu.h"
+	"hud\ButtonMenu.h"
+	"MenuState.h"
+	"iostream"
+
+1417118916 source:c:\users\smeky\desktop\programming\smeky's td\src\hud\menulevels.cpp
+	"hud\MenuLevels.h"
+	"MenuState.h"
+	"hud\ButtonMenu.h"
+	"hud\ButtonLevel.h"
+	"PlayState.h"
+	"iostream"
+
+1418565120 source:c:\users\smeky\desktop\programming\smeky's td\src\hud\menumain.cpp
+	"hud\MenuMain.h"
+	"MenuState.h"
+	"hud\ButtonMenu.h"
+	"PlayState.h"
+	"iostream"
+
+1418156704 source:c:\users\smeky\desktop\programming\smeky's td\src\hud\menuoptions.cpp
+	"MenuOptions.h"
+	"MenuState.h"
+	"ButtonMenuPage.h"
+	"iostream"
+
+1415482973 source:c:\users\smeky\desktop\programming\smeky's td\src\hud\menustate.cpp
+	"MenuState.h"
+	"PlayState.h"
+	"iostream"
+
+1415638617 source:c:\users\smeky\desktop\programming\smeky's td\src\hud\pausemenu.cpp
+	"hud\PauseMenu.h"
+	"hud\ButtonMenu.h"
+	"MenuState.h"
+	"iostream"
+
+1417540403 source:c:\users\smeky\desktop\programming\smeky's td\src\hud\sidemenu.cpp
+	"hud/SideMenu.h"
+	"PlayState.h"
+	"hud/ButtonPause.h"
+	"hud/ButtonTowerSelection.h"
+	"hud/ButtonNextwave.h"
+	"iostream"
+
+1414956011 source:c:\users\smeky\desktop\programming\smeky's td\src\hud\tooltipbuttontower.cpp
+	"TooltipButtonTower.h"
+
+1417348995 source:c:\users\smeky\desktop\programming\smeky's td\src\hud\tooltipmanager.cpp
+	"hud/TooltipManager.h"
+	"hud/TooltipWarning.h"
+	"hud/TooltipDescription.h"
+	"iostream"
+
+1415709915 source:c:\users\smeky\desktop\programming\smeky's td\src\hud\tooltipmessage.cpp
+	"hud\TooltipMessage.h"
+	"core\SDL2_gfxPrimitives.h"
+
+1416660961 source:c:\users\smeky\desktop\programming\smeky's td\src\hud\trackerhealth.cpp
+	"hud\TrackerHealth.h"
+
+1416660954 source:c:\users\smeky\desktop\programming\smeky's td\src\hud\trackermoney.cpp
+	"hud\TrackerMoney.h"
+	"iostream"
+
+1418566613 c:\users\smeky\desktop\programming\smeky's td\include\core\engine.h
+	"SDL.h"
+	"SDL_image.h"
+	"SDL_mixer.h"
+	"SDL_ttf.h"
+	"string"
+	"vector"
+	"ResourceManager.h"
+	"TextureManager.h"
+	"SaveManager.h"
+	"SoundManager.h"
+	"FontManager.h"
+	"core/Timer.h"
+
+1415464704 c:\users\smeky\desktop\programming\smeky's td\include\core\texturemanager.h
+	"Texture.h"
+	"map"
+
+1415465060 c:\users\smeky\desktop\programming\smeky's td\include\core\texture.h
+	"SDL.h"
+	"SDL_image.h"
+	"SDL_ttf.h"
+	"string"
+	"vector"
+
+1418510167 c:\users\smeky\desktop\programming\smeky's td\include\core\soundmanager.h
+	"SDL_mixer.h"
+	"map"
+	"string"
+
+1415467241 c:\users\smeky\desktop\programming\smeky's td\include\core\fontmanager.h
+	"SDL_ttf.h"
+	"map"
+	"string"
+
+1414232213 c:\users\smeky\desktop\programming\smeky's td\include\core\timer.h
+	"SDL.h"
+
+1415965203 c:\users\smeky\desktop\programming\smeky's td\include\core\level.h
+	"SDL.h"
+	"vector"
+	"string"
+	"Engine.h"
+	"Tile.h"
+
+1414169172 c:\users\smeky\desktop\programming\smeky's td\include\core\tile.h
+	"SDL.h"
+	"Engine.h"
+
+1417351206 c:\users\smeky\desktop\programming\smeky's td\include\hud\sidemenu.h
+	"IButton.h"
+	"ButtonTowerSelection.h"
+	"TooltipManager.h"
+
+1415396676 c:\users\smeky\desktop\programming\smeky's td\include\hud\pausemenu.h
+	"IGameState.h"
+	"IButton.h"
+
+1416659051 c:\users\smeky\desktop\programming\smeky's td\include\hud\trackermoney.h
+	"core\Engine.h"
+
+1416659261 c:\users\smeky\desktop\programming\smeky's td\include\hud\trackerhealth.h
+	"core\Engine.h"
+
+1417349015 c:\users\smeky\desktop\programming\smeky's td\include\hud\tooltipmanager.h
+	"core/Engine.h"
+
+1417908051 c:\users\smeky\desktop\programming\smeky's td\include\hud\gameovermenu.h
+	"IGameState.h"
+	"IButton.h"
+
+1418565126 c:\users\smeky\desktop\programming\smeky's td\include\hud\menumain.h
+	"IButton.h"
+	"TooltipManager.h"
+
+1416654313 c:\users\smeky\desktop\programming\smeky's td\include\hud\menulevels.h
+	"IButton.h"
+	"hud\TooltipManager.h"
+
+1418056044 c:\users\smeky\desktop\programming\smeky's td\include\hud\menuoptions.h
+	"IButton.h"
+	"OptionsPgVideo.h"
+	"OptionsPgAudio.h"
+
+1415203050 c:\users\smeky\desktop\programming\smeky's td\include\hud\buttonexit.h
+	"IButton.h"
+
+1417907640 c:\users\smeky\desktop\programming\smeky's td\include\hud\buttonlevel.h
+	"IButton.h"
+
+1415386585 c:\users\smeky\desktop\programming\smeky's td\include\hud\buttonmenu.h
+	"IButton.h"
+
+1415208725 c:\users\smeky\desktop\programming\smeky's td\include\hud\buttonnextwave.h
+	"IButton.h"
+
+1414929514 c:\users\smeky\desktop\programming\smeky's td\include\hud\buttonpause.h
+	"IButton.h"
+
+1415203042 c:\users\smeky\desktop\programming\smeky's td\include\hud\buttonrestart.h
+	"IButton.h"
+
+1415203071 c:\users\smeky\desktop\programming\smeky's td\include\hud\buttonresume.h
+	"IButton.h"
+
+1415556229 c:\users\smeky\desktop\programming\smeky's td\include\hud\buttonsell.h
+	"IButton.h"
+
+1415543555 c:\users\smeky\desktop\programming\smeky's td\include\hud\buttontowerbeam.h
+	"IButton.h"
+
+1415543240 c:\users\smeky\desktop\programming\smeky's td\include\hud\buttontowerplasma.h
+	"IButton.h"
+
+1415543911 c:\users\smeky\desktop\programming\smeky's td\include\hud\buttontowerslower.h
+	"IButton.h"
+
+1417258922 c:\users\smeky\desktop\programming\smeky's td\include\entities\enemycircle.h
+	"IEnemy.h"
+
+1414263804 c:\users\smeky\desktop\programming\smeky's td\include\core\tinyxml2.h
+	<ctype.h>
+	<limits.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdarg.h>
+	<cctype>
+	<climits>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<cstdarg>
+	<android/log.h>
+	<assert.h>
+
+1417258915 c:\users\smeky\desktop\programming\smeky's td\include\entities\enemyquatropod.h
+	"IEnemy.h"
+
+1417258918 c:\users\smeky\desktop\programming\smeky's td\include\entities\enemysquare.h
+	"IEnemy.h"
+
+1417258913 c:\users\smeky\desktop\programming\smeky's td\include\entities\enemytriangle.h
+	"IEnemy.h"
+
+1417258910 c:\users\smeky\desktop\programming\smeky's td\include\entities\enemytripod.h
+	"IEnemy.h"
+
+1417534197 c:\users\smeky\desktop\programming\smeky's td\include\entities\projectilebeam.h
+	"IProjectile.h"
+
+1417533989 c:\users\smeky\desktop\programming\smeky's td\include\entities\projectileplasma.h
+	"IProjectile.h"
+
+1417534180 c:\users\smeky\desktop\programming\smeky's td\include\entities\projectileslower.h
+	"IProjectile.h"
+
+1415635294 c:\users\smeky\desktop\programming\smeky's td\include\entities\towerbeam.h
+	"ITower.h"
+
+1415635244 c:\users\smeky\desktop\programming\smeky's td\include\entities\towerlaser.h
+	"ITower.h"
+
+1415645676 c:\users\smeky\desktop\programming\smeky's td\include\entities\towerslower.h
+	"ITower.h"
+
+1415657838 c:\users\smeky\desktop\programming\smeky's td\include\hud\tooltipmessage.h
+	"TooltipManager.h"
+
+1416847498 source:c:\users\smeky\desktop\programming\smeky's td\src\hud\buttontowerselection.cpp
+	"hud\ButtonTowerSelection.h"
+
+1416847484 c:\users\smeky\desktop\programming\smeky's td\include\hud\buttontowerselection.h
+	"IButton.h"
+
+1415651206 source:c:\users\smeky\desktop\programming\smeky's td\src\entities\towerbomber.cpp
+	"entities\TowerBomber.h"
+
+1415645685 c:\users\smeky\desktop\programming\smeky's td\include\entities\towerbomber.h
+	"ITower.h"
+
+1417534005 source:c:\users\smeky\desktop\programming\smeky's td\src\entities\projectilebomber.cpp
+	"entities\ProjectileBomber.h"
+
+1417534186 c:\users\smeky\desktop\programming\smeky's td\include\entities\projectilebomber.h
+	"IProjectile.h"
+
+1415656725 source:c:\users\smeky\desktop\programming\smeky's td\src\core\sdl2_gfxprimitives.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	"core\SDL2_gfxPrimitives.h"
+	"core\SDL2_rotozoom.h"
+	"core\SDL2_gfxPrimitives_font.h"
+	<emmintrin.h>
+	<armintr.h>
+
+1402325468 c:\users\smeky\desktop\programming\smeky's td\include\core\sdl2_gfxprimitives.h
+	<math.h>
+	"SDL.h"
+
+1346806280 c:\users\smeky\desktop\programming\smeky's td\include\core\sdl2_rotozoom.h
+	<math.h>
+	"SDL.h"
+
+1346859512 c:\users\smeky\desktop\programming\smeky's td\include\core\sdl2_gfxprimitives_font.h
+
+1415656819 source:c:\users\smeky\desktop\programming\smeky's td\src\core\sdl2_imagefilter.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"SDL.h"
+	<mmintrin.h>
+	<SDL_cpuinfo.h>
+	"core\SDL2_imageFilter.h"
+
+1379873136 c:\users\smeky\desktop\programming\smeky's td\include\core\sdl2_imagefilter.h
+
+1415656824 source:c:\users\smeky\desktop\programming\smeky's td\src\core\sdl2_rotozoom.c
+	<windows.h>
+	<stdlib.h>
+	<string.h>
+	"core\SDL2_rotozoom.h"
+
+1416156412 c:\users\smeky\desktop\programming\smeky's td\include\hud\tooltipwarning.h
+	"TooltipManager.h"
+
+1416156426 source:c:\users\smeky\desktop\programming\smeky's td\src\hud\tooltipwarning.cpp
+	"hud\TooltipWarning.h"
+	"core\SDL2_gfxPrimitives.h"
+
+1417020068 c:\users\smeky\desktop\programming\smeky's td\include\hud\targettower.h
+	"TowerFramework.h"
+	"IButton.h"
+	"ButtonIcon.h"
+	"TooltipManager.h"
+
+1417124274 source:c:\users\smeky\desktop\programming\smeky's td\src\hud\targettower.cpp
+	"hud\TargetTower.h"
+	"PlayState.h"
+	"math.h"
+	"iostream"
+
+1416256217 c:\users\smeky\desktop\programming\smeky's td\include\buttonicon.h
+	"IButton.h"
+
+1417136032 source:c:\users\smeky\desktop\programming\smeky's td\src\buttonicon.cpp
+	"ButtonIcon.h"
+	"iostream"
+
+1416261745 source:c:\users\smeky\desktop\programming\smeky's td\src\entities\towerplasmamachine.cpp
+	"entities/TowerPlasmaMachine.h"
+
+1415729891 c:\users\smeky\desktop\programming\smeky's td\include\entities\towerplasmamachine.h
+	"ITower.h"
+
+1415810105 source:c:\users\smeky\desktop\programming\smeky's td\src\towermanager.cpp
+	"TowerManager.h"
+	"entities/EnemySquare.h"
+	"entities/EnemyTriangle.h"
+	"entities/EnemyCircle.h"
+	"entities/EnemyTripod.h"
+	"entities/EnemyQuatropod.h"
+	"iostream"
+
+1415810080 c:\users\smeky\desktop\programming\smeky's td\include\towermanager.h
+	"core/Engine.h"
+	"ITower.h"
+	"IEnemy.h"
+	"hud/TooltipManager.h"
+
+1416260415 c:\users\smeky\desktop\programming\smeky's td\include\entities\towerplasmasniper.h
+	"ITower.h"
+
+1416261939 source:c:\users\smeky\desktop\programming\smeky's td\src\entities\towerplasmasniper.cpp
+	"entities/TowerPlasmaSniper.h"
+
+1418576714 c:\users\smeky\desktop\programming\smeky's td\include\core\resourcemanager.h
+	"string"
+	"map"
+
+1418576771 source:c:\users\smeky\desktop\programming\smeky's td\src\core\resourcemanager.cpp
+	"core/ResourceManager.h"
+	"core/tinyxml2.h"
+	"iostream"
+
+1418576503 c:\users\smeky\desktop\programming\smeky's td\include\entities\towerframework.h
+	"IEnemy.h"
+	"TurretCannon.h"
+	"FireEffect.h"
+
+1418576467 source:c:\users\smeky\desktop\programming\smeky's td\src\entities\towerframework.cpp
+	"entities/TowerFramework.h"
+	"IAttack.h"
+	"math.h"
+	"iostream"
+
+1417106272 c:\users\smeky\desktop\programming\smeky's td\include\hud\menuupgrades.h
+	"IButton.h"
+
+1417118934 source:c:\users\smeky\desktop\programming\smeky's td\src\hud\menuupgrades.cpp
+	"hud/MenuUpgrades.h"
+	"hud/ButtonMenu.h"
+	"hud/ButtonUpgs.h"
+	"ButtonIcon.h"
+	"MenuState.h"
+	"iostream"
+
+1417534171 source:c:\users\smeky\desktop\programming\smeky's td\src\entities\projectilerocket.cpp
+	"ProjectileRocket.h"
+
+1417534183 c:\users\smeky\desktop\programming\smeky's td\include\entities\projectilerocket.h
+	"IProjectile.h"
+
+1417558121 source:c:\users\smeky\desktop\programming\smeky's td\src\hud\tooltipdescription.cpp
+	"TooltipDescription.h"
+	"iostream"
+
+1417292184 c:\users\smeky\desktop\programming\smeky's td\include\hud\tooltipdescription.h
+	"TooltipManager.h"
+
+1417029651 c:\users\smeky\desktop\programming\smeky's td\include\hud\buttonupgs.h
+	"IButton.h"
+
+1417106544 source:c:\users\smeky\desktop\programming\smeky's td\src\hud\buttonupgs.cpp
+	"ButtonUpgs.h"
+	"iostream"
+
+1418054583 c:\users\smeky\desktop\programming\smeky's td\include\hud\menuplay.h
+	"IButton.h"
+	"TooltipManager.h"
+	"TalentManager.h"
+	"LevelManager.h"
+	"ExpManager.h"
+
+1418004454 source:c:\users\smeky\desktop\programming\smeky's td\src\hud\buttonmenupage.cpp
+	"ButtonMenuPage.h"
+	"iostream"
+
+1417115111 c:\users\smeky\desktop\programming\smeky's td\include\hud\buttonmenupage.h
+	"IButton.h"
+
+1418055690 source:c:\users\smeky\desktop\programming\smeky's td\src\hud\menuplay.cpp
+	"MenuPlay.h"
+	"MenuState.h"
+	"PlayState.h"
+	"ButtonIcon.h"
+	"ButtonLevel.h"
+	"ButtonMenuPage.h"
+	"iostream"
+
+1417374400 c:\users\smeky\desktop\programming\smeky's td\include\talentmanager.h
+	"Talent.h"
+
+1417373330 c:\users\smeky\desktop\programming\smeky's td\include\talent.h
+	"IButton.h"
+
+1417374810 source:c:\users\smeky\desktop\programming\smeky's td\src\talent.cpp
+	"Talent.h"
+	"iostream"
+
+1417565360 source:c:\users\smeky\desktop\programming\smeky's td\src\talentmanager.cpp
+	"TalentManager.h"
+	"iostream"
+
+1417529399 source:c:\users\smeky\desktop\programming\smeky's td\src\iattack.cpp
+	"IAttack.h"
+
+1417557610 c:\users\smeky\desktop\programming\smeky's td\include\iattack.h
+	"math.h"
+	"TowerFramework.h"
+
+1417528455 source:c:\users\smeky\desktop\programming\smeky's td\src\attackslow.cpp
+	"AttackSlow.h"
+	"iostream"
+
+1417529119 c:\users\smeky\desktop\programming\smeky's td\include\attackslow.h
+	"IAttack.h"
+
+1417532869 c:\users\smeky\desktop\programming\smeky's td\include\attackmanager.h
+	"IAttack.h"
+
+1417533145 source:c:\users\smeky\desktop\programming\smeky's td\src\attackmanager.cpp
+	"AttackManager.h"
+
+1417544597 c:\users\smeky\desktop\programming\smeky's td\include\entities\iprojectile.h
+	"IAttack.h"
+	"IEnemy.h"
+	"TowerFramework.h"
+
+1417548065 source:c:\users\smeky\desktop\programming\smeky's td\src\entities\iprojectile.cpp
+	"entities/IProjectile.h"
+	"math.h"
+	"iostream"
+
+1418056973 c:\users\smeky\desktop\programming\smeky's td\include\hud\levelmanager.h
+	"ButtonLevel.h"
+
+1417908646 source:c:\users\smeky\desktop\programming\smeky's td\src\hud\levelmanager.cpp
+	"LevelManager.h"
+	"PlayState.h"
+	"iostream"
+
+1417964196 source:c:\users\smeky\desktop\programming\smeky's td\src\core\savemanager.cpp
+	"SaveManager.h"
+	"ostream"
+	"fstream"
+	"iostream"
+	"tinyxml2.h"
+
+1417965574 c:\users\smeky\desktop\programming\smeky's td\include\core\savemanager.h
+	"vector"
+	"string"
+
+1417994063 c:\users\smeky\desktop\programming\smeky's td\include\expmanager.h
+	"Engine.h"
+
+1417994121 source:c:\users\smeky\desktop\programming\smeky's td\src\expmanager.cpp
+	"ExpManager.h"
+	"math.h"
+	"iostream"
+
+1418156741 c:\users\smeky\desktop\programming\smeky's td\include\optionspgvideo.h
+	"MenuPage.h"
+
+1418517007 c:\users\smeky\desktop\programming\smeky's td\include\optionspgaudio.h
+	"MenuPage.h"
+	"Slider.h"
+
+1418555372 source:c:\users\smeky\desktop\programming\smeky's td\src\optionspgaudio.cpp
+	"OptionsPgAudio.h"
+	"ButtonMenu.h"
+	"ButtonCheckbox.h"
+
+1418157043 source:c:\users\smeky\desktop\programming\smeky's td\src\optionspgvideo.cpp
+	"OptionsPgVideo.h"
+	"ButtonMenu.h"
+
+1418153813 c:\users\smeky\desktop\programming\smeky's td\include\hud\menupage.h
+	"IButton.h"
+
+1418152692 source:c:\users\smeky\desktop\programming\smeky's td\src\hud\menupage.cpp
+	"MenuPage.h"
+
+1418158799 c:\users\smeky\desktop\programming\smeky's td\include\hud\buttoncheckbox.h
+	"IButton.h"
+
+1418512171 source:c:\users\smeky\desktop\programming\smeky's td\src\hud\buttoncheckbox.cpp
+	"ButtonCheckbox.h"
+
+1418556339 c:\users\smeky\desktop\programming\smeky's td\include\hud\slider.h
+	"SliderButton.h"
+
+1418516311 c:\users\smeky\desktop\programming\smeky's td\include\hud\sliderbutton.h
+	"IButton.h"
+
+1418556461 source:c:\users\smeky\desktop\programming\smeky's td\src\hud\slider.cpp
+	"Slider.h"
+	"iostream"
+
+1418519835 source:c:\users\smeky\desktop\programming\smeky's td\src\hud\sliderbutton.cpp
+	"SliderButton.h"
+
+1418573758 c:\users\smeky\desktop\programming\smeky's td\include\entities\turretcannon.h
+	"Engine.h"
+
+1418574334 source:c:\users\smeky\desktop\programming\smeky's td\src\entities\turretcannon.cpp
+	"TurretCannon.h"
+
+1418576622 source:c:\users\smeky\desktop\programming\smeky's td\src\fireeffect.cpp
+	"FireEffect.h"
+
+1418575946 c:\users\smeky\desktop\programming\smeky's td\include\fireeffect.h
+	"Engine.h"
+

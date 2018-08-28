@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GUI>
+  <tooltip name="shooter" type="tower_statistic">
+    <head>TEXT_TOOLTIP_TOWER_STATS_SHOOTER_NAME</head>
+    <desc>TEXT_TOOLTIP_TOWER_STATS_SHOOTER_DESC</desc>
+  </tooltip>
+  <tooltip name="machine" type="tower_statistic">
+    <head>TEXT_TOOLTIP_TOWER_STATS_MACHINE_NAME</head>
+    <desc>TEXT_TOOLTIP_TOWER_STATS_MACHINE_DESC</desc>
+  </tooltip>
+  <tooltip name="machine_heavy" type="tower_statistic">
+    <head>TEXT_TOOLTIP_TOWER_STATS_MACHINE_HEAVY_NAME</head>
+    <desc>TEXT_TOOLTIP_TOWER_STATS_MACHINE_HEAVY_DESC</desc>
+  </tooltip>
+  <tooltip name="sniper" type="tower_statistic">
+    <head>TEXT_TOOLTIP_TOWER_STATS_SNIPER_NAME</head>
+    <desc>TEXT_TOOLTIP_TOWER_STATS_SNIPER_DESC</desc>
+  </tooltip>
+  <tooltip name="sniper_heavy" type="tower_statistic">
+    <head>TEXT_TOOLTIP_TOWER_STATS_SNIPER_HEAVY_NAME</head>
+    <desc>TEXT_TOOLTIP_TOWER_STATS_SNIPER_HEAVY_DESC</desc>
+  </tooltip>
+  <tooltip name="beam" type="tower_statistic">
+    <head>TEXT_TOOLTIP_TOWER_STATS_BEAM_NAME</head>
+    <desc>TEXT_TOOLTIP_TOWER_STATS_BEAM_DESC</desc>
+  </tooltip>
+  <tooltip name="beam_dual" type="tower_statistic">
+    <head>TEXT_TOOLTIP_TOWER_STATS_BEAM_DUAL_NAME</head>
+    <desc>TEXT_TOOLTIP_TOWER_STATS_BEAM_DUAL_DESC</desc>
+  </tooltip>
+  <tooltip name="beam_dual_heavy" type="tower_statistic">
+    <head>TEXT_TOOLTIP_TOWER_STATS_BEAM_DUAL_HEAVY_NAME</head>
+    <desc>TEXT_TOOLTIP_TOWER_STATS_BEAM_DUAL_HEAVY_DESC</desc>
+  </tooltip>
+    <tooltip name="pulse_laser" type="tower_statistic">
+    <head>TEXT_TOOLTIP_TOWER_STATS_PULSE_LASER_NAME</head>
+    <desc>TEXT_TOOLTIP_TOWER_STATS_PULSE_LASER_DESC</desc>
+  </tooltip>
+    <tooltip name="pulse_laser_heavy" type="tower_statistic">
+    <head>TEXT_TOOLTIP_TOWER_STATS_PULSE_LASER_HEAVY_NAME</head>
+    <desc>TEXT_TOOLTIP_TOWER_STATS_PULSE_LASER_HEAVY_DESC</desc>
+  </tooltip>
+  <tooltip name="cooler" type="tower_statistic">
+    <head>TEXT_TOOLTIP_TOWER_STATS_COOLER_NAME</head>
+    <desc>TEXT_TOOLTIP_TOWER_STATS_COOLER_DESC</desc>
+  </tooltip>
+  <tooltip name="mass_cooler" type="tower_statistic">
+    <head>TEXT_TOOLTIP_TOWER_STATS_MASS_COOLER_NAME</head>
+    <desc>TEXT_TOOLTIP_TOWER_STATS_MASS_COOLER_DESC</desc>
+  </tooltip>
+  <tooltip name="mass_cooler_heavy" type="tower_statistic">
+    <head>TEXT_TOOLTIP_TOWER_STATS_MASS_COOLER_HEAVY_NAME</head>
+    <desc>TEXT_TOOLTIP_TOWER_STATS_MASS_COOLER_HEAVY_DESC</desc>
+  </tooltip>
+  <tooltip name="freezer" type="tower_statistic">
+    <head>TEXT_TOOLTIP_TOWER_STATS_FREEZER_NAME</head>
+    <desc>TEXT_TOOLTIP_TOWER_STATS_FREEZER_DESC</desc>
+  </tooltip>
+  <tooltip name="freezer_heavy" type="tower_statistic">
+    <head>TEXT_TOOLTIP_TOWER_STATS_FREEZER_HEAVY_NAME</head>
+    <desc>TEXT_TOOLTIP_TOWER_STATS_FREEZER_HEAVY_DESC</desc>
+  </tooltip>
+  <tooltip name="mortar" type="tower_statistic">
+    <head>TEXT_TOOLTIP_TOWER_STATS_MORTAR_NAME</head>
+    <desc>TEXT_TOOLTIP_TOWER_STATS_MORTAR_DESC</desc>
+  </tooltip>
+  <tooltip name="mortar_heavy" type="tower_statistic">
+    <head>TEXT_TOOLTIP_TOWER_STATS_MORTAR_HEAVY_NAME</head>
+    <desc>TEXT_TOOLTIP_TOWER_STATS_MORTAR_HEAVY_DESC</desc>
+  </tooltip>
+  <tooltip name="artillery" type="tower_statistic">
+    <head>TEXT_TOOLTIP_TOWER_STATS_ARTILLERY_NAME</head>
+    <desc>TEXT_TOOLTIP_TOWER_STATS_ARTILLERY_DESC</desc>
+  </tooltip>
+  <tooltip name="launcher" type="tower_statistic">
+    <head>TEXT_TOOLTIP_TOWER_STATS_MISSILER_LAUNCHER_NAME</head>
+    <desc>TEXT_TOOLTIP_TOWER_STATS_MISSILER_LAUNCHER_DESC</desc>
+  </tooltip>
+  <tooltip name="launcher_heavy" type="tower_statistic">
+    <head>TEXT_TOOLTIP_TOWER_STATS_MISSILER_LAUNCHER_HEAVY_NAME</head>
+    <desc>TEXT_TOOLTIP_TOWER_STATS_MISSILER_LAUNCHER_HEAVY_DESC</desc>
+  </tooltip>
+  <tooltip name="square" type="enemy_statistic">
+    <head>TEXT_TOOLTIP_ENEMY_SQUARE_NAME</head>
+  </tooltip>
+  <tooltip name="triangle" type="enemy_statistic">
+    <head>TEXT_TOOLTIP_ENEMY_TRIANGLE_NAME</head>
+  </tooltip>
+  <tooltip name="circle" type="enemy_statistic">
+    <head>TEXT_TOOLTIP_ENEMY_CIRCLE_NAME</head>
+  </tooltip>
+  <tooltip name="tripod" type="enemy_statistic">
+    <head>TEXT_TOOLTIP_ENEMY_TRIPOD_NAME</head>
+  </tooltip>
+  <tooltip name="quatropod" type="enemy_statistic">
+    <head>TEXT_TOOLTIP_ENEMY_QUATROPOD_NAME</head>
+  </tooltip>
+</GUI>
+<entities>
+  <towers base-width="" base-height="" >
+    <tower name="shooter" house="plasma" >
+      <texture tex-body="TOWER_PLASMA" tex-cannon="CANNON_PLASMA" tex-button="ICON_TOWER_PLASMA_SHOOTER" tex-fire="EFFECT_FIRE_SHOOTER" />
+      <sound attack="ATTACK_PLASMA_SHOOTER" />
+      <stats dmg="8" atts="25" range="120" price="25" />
+      <upgrade first="machine" second="sniper" />
+    </tower>
+    <tower name="machine" house="plasma" >
+      <texture tex-body="TOWER_PLASMA_MACHINE" tex-cannon="CANNON_PLASMA_MACHINE" tex-button="ICON_TOWER_PLASMA_MACHINE" />
+      <stats dmg="12" atts="75" range="120" price="120" />
+      <upgrade first="machine_heavy" />
+    </tower>
+    <tower name="machine_heavy" house="plasma" >
+      <texture tex-body="TOWER_PLASMA_MACHINE" tex-cannon="CANNON_PLASMA_MACHINE" tex-button="ICON_TOWER_PLASMA_MACHINE" />
+      <stats dmg="20" atts="75" range="140" price="200" />
+    </tower>
+    <tower name="sniper" house="plasma" >
+      <texture tex-body="TOWER_PLASMA_SNIPER" tex-cannon="CANNON_PLASMA_SNIPER" tex-button="ICON_TOWER_PLASMA_SNIPER" />
+      <stats dmg="80" atts="5" range="200" price="110" />
+      <upgrade first="sniper_heavy" />
+    </tower>
+    <tower name="sniper_heavy" house="plasma" >
+      <texture tex-body="TOWER_PLASMA_MACHINE" tex-cannon="CANNON_PLASMA_MACHINE" tex-button="ICON_TOWER_PLASMA_MACHINE" />
+      <stats dmg="160" atts="75" range="200" price="240" />
+    </tower>
+    <tower name="beam" house="beam" >
+      <texture tex-body="TOWER_BEAM" tex-cannon="CANNON_BEAM" tex-button="ICON_PLACEHOLDER" />
+      <stats dmg="3" atts="200" range="80" price="55" />
+      <upgrade first="beam_dual" second="pulse_laser" />
+    </tower>
+    <tower name="beam_dual" house="beam" >
+      <texture tex-body="TOWER_BEAM" tex-cannon="CANNON_BEAM" tex-button="ICON_PLACEHOLDER" />
+      <stats dmg="3" atts="200" range="100" price="150" />
+      <upgrade first="beam_dual_heavy" />
+    </tower>
+    <tower name="beam_dual_heavy" house="beam" >
+      <texture tex-body="TOWER_BEAM" tex-cannon="CANNON_BEAM" tex-button="ICON_PLACEHOLDER" />
+      <stats dmg="8" atts="200" range="100" price="300" />
+    </tower>
+    <tower name="pulse_laser" house="beam" >
+      <texture tex-body="TOWER_BEAM" tex-cannon="CANNON_BEAM" tex-button="ICON_PLACEHOLDER" />
+      <stats dmg="8" atts="200" range="80" price="140" />
+      <upgrade first="pulse_laser_heavy" />
+    </tower>
+    <tower name="pulse_laser_heavy" house="beam" >
+      <texture tex-body="TOWER_BEAM" tex-cannon="CANNON_BEAM" tex-button="ICON_PLACEHOLDER" />
+      <stats dmg="11" atts="200" range="80" price="280" />
+    </tower>
+    <tower name="cooler" house="slower" >
+      <texture tex-body="TOWER_SLOWER" tex-cannon="CANNON_SLOWER" tex-button="ICON_PLACEHOLDER" />
+      <projectile name="cooler" />
+      <stats dmg="30" atts="10" range="120" price="55" />
+      <ability name="slow" dur="20" prc="30" />
+      <upgrade first="mass_cooler" second="freezer" />
+    </tower>
+    <tower name="mass_cooler" house="slower" >
+      <texture tex-body="TOWER_SLOWER" tex-cannon="CANNON_SLOWER" tex-button="ICON_PLACEHOLDER" />
+      <stats dmg="35" atts="10" range="120" price="160" blast="0.3" blast-range="40" />
+      <ability name="slow" dur="20" prc="30" />
+      <upgrade first="mass_cooler_heavy" />
+    </tower>
+    <tower name="mass_cooler_heavy" house="slower" >
+      <texture tex-body="TOWER_SLOWER" tex-cannon="CANNON_SLOWER" tex-button="ICON_PLACEHOLDER" />
+      <stats dmg="60" atts="10" range="140" price="350" blast="0.3" blast-range="50" />
+      <ability name="slow" dur="20" prc="45" />
+    </tower>
+    <tower name="freezer" house="slower" >
+      <texture tex-body="TOWER_SLOWER" tex-cannon="CANNON_SLOWER" tex-button="ICON_PLACEHOLDER" />
+      <stats dmg="50" atts="10" range="130" price="140" />
+      <ability name="freeze" dur="15" />
+      <upgrade first="freezer_heavy" />
+    </tower>
+    <tower name="freezer_heavy" house="slower" >
+      <texture tex-body="TOWER_SLOWER" tex-cannon="CANNON_SLOWER" tex-button="ICON_PLACEHOLDER" />
+      <stats dmg="90" atts="10" range="150" price="300" />
+      <ability name="freeze" dur="30" />
+    </tower>
+    <tower name="mortar" house="bomber" >
+      <texture tex-body="TURRET_MORTAR" tex-cannon="CANNON_BOMBER" tex-button="ICON_PLACEHOLDER" />
+      <stats dmg="40" atts="5" range="110" price="80" />
+      <ability name="blast" dmg="0.3" radius="50" />
+      <upgrade first="mortar_heavy" second="launcher" />
+    </tower>
+    <tower name="mortar_heavy" house="bomber" >
+      <texture tex-body="TURRET_MORTAR_HEAVY" tex-cannon="CANNON_BOMBER" tex-button="ICON_PLACEHOLDER" />
+      <stats dmg="75" atts="5" range="110" price="220" />
+      <ability name="blast" dmg="0.4" radius="65" />
+      <upgrade first="artillery" />
+    </tower>
+    <tower name="artillery" house="bomber" >
+      <texture tex-body="TURRET_ARTILLERY" tex-cannon="CANNON_BOMBER" tex-button="ICON_PLACEHOLDER" />
+      <stats dmg="200" atts="2" range="260" price="550" />
+      <ability name="blast" dmg="0.5" radius="85" />
+    </tower>
+    <tower name="launcher" house="bomber" >
+      <texture tex-body="TOWER_BOMBER" tex-cannon="CANNON_BOMBER" tex-button="ICON_PLACEHOLDER" />
+      <stats dmg="80" atts="5" range="160" price="240" />
+      <ability name="blast" dmg="0.5" radius="55" />
+      <upgrade first="launcher_heavy" />
+    </tower>
+    <tower name="launcher_heavy" house="bomber" >
+      <texture tex-body="TOWER_BOMBER" tex-cannon="CANNON_BOMBER" tex-button="ICON_PLACEHOLDER" />
+      <stats dmg="135" atts="5" range="180" price="450" />
+      <ability name="blast" dmg="0.5" radius="75" />
+    </tower>
+  </towers>
+  <projectiles>
+    <projectile name="plasma" tex="PROJECTILE_PLASMA" w="5" h="5" vel="700" direction="0" /> 
+    <projectile name="cooler" tex="PROJECTILE_COOLER" w="2" h="8" vel="600" direction="1" />
+    <projectile name="rocket" tex="PROJECTILE_ROCKET" w="6" h="12" vel="250" direction="1" />
+  </projectiles>
+  <enemies base-width="" base-height="" >
+    <enemy name="square" type="ground" >
+      <texture tex="ENEMY_SQUARE" />
+      <stats speed="100" />
+    </enemy>
+    <enemy name="triangle" type="ground" >
+      <texture tex="ENEMY_TRIANGLE" />
+      <stats speed="80" />
+    </enemy>
+    <enemy name="circle" type="ground" >
+      <texture tex="ENEMY_CIRCLE" />
+      <stats speed="150" />
+    </enemy>
+    <enemy name="tripod" type="ground" >
+      <texture tex="ENEMY_TRIPOD" />
+      <stats speed="80" />
+    </enemy>
+    <enemy name="quatropod" type="ground" >
+      <texture tex="ENEMY_QUATROPOD" />
+      <stats speed="50" />
+    </enemy>
+  </enemies>
+</entities>

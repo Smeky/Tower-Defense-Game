@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<level name="level_easy">
+  <wave enemy="square"  amount="5" velocity="80" health="40" />
+  <wave enemy="triangle" amount="7" velocity="70" health="50" />
+</level>

@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<textures>
+  <image name="TILESET" path="media/textures/tileset.png" />
+  <image name="TILESET_OBJECTS" path="media/textures/tileset_objects.png" />
+  <image name="ENEMY_SQUARE" path="media/textures/enemy_square.png" />
+  <image name="ENEMY_TRIANGLE" path="media/textures/enemy_triangle.png" />
+  <image name="ENEMY_CIRCLE" path="media/textures/enemy_circle.png" />
+  <image name="ENEMY_TRIPOD" path="media/textures/enemy_tripod.png" />
+  <image name="ENEMY_QUATROPOD" path="media/textures/enemy_quatropod.png" />
+  <image name="TOWER_PLASMA" path="media/textures/tower_plasma.png" />
+  <image name="TOWER_PLASMA_MACHINE" path="media/textures/tower_plasma_machine.png" />
+  <image name="TOWER_PLASMA_SNIPER" path="media/textures/tower_plasma_sniper.png" />
+  <image name="TOWER_BEAM" path="media/textures/tower_beam.png" />
+  <image name="TOWER_SLOWER" path="media/textures/tower_slower.png" />
+  <image name="TOWER_BOMBER" path="media/textures/tower_bomber.png" />
+  <image name="TOWER_PLASMA_HEAD" path="media/textures/tower_plasma_head.png" />
+  <image name="TURRET_MORTAR" path="media/textures/turret_mortar.png" />
+  <image name="TURRET_MORTAR_HEAVY" path="media/textures/turret_mortar_heavy.png" />
+  <image name="TURRET_ARTILLERY" path="media/textures/turret_artillery.png" />
+  <image name="CANNON_BEAM" path="media/textures/cannon_beam.png" />
+  <image name="CANNON_PLASMA" path="media/textures/cannon_plasma.png" />
+  <image name="CANNON_PLASMA_MACHINE" path="media/textures/cannon_plasma_machine.png" />
+  <image name="CANNON_PLASMA_SNIPER" path="media/textures/cannon_plasma_sniper.png" />
+  <image name="CANNON_SLOWER" path="media/textures/cannon_slower.png" />
+  <image name="CANNON_BOMBER" path="media/textures/cannon_bomber.png" />
+  <image name="PROJECTILE_PLASMA" path="media/textures/projectile_plasma.png" />
+  <image name="PROJECTILE_BEAM_BODY" path="media/textures/projectile_beam_body.png" />
+  <image name="PROJECTILE_BEAM_HEAD" path="media/textures/beam_red_head.png" />
+  <image name="PROJECTILE_COOLER" path="media/textures/projectile_cooler.png" />
+  <image name="PROJECTILE_BOMBER" path="media/textures/projectile_bomber.png" />
+  <image name="PROJECTILE_ROCKET" path="media/textures/projectile_rocket.png" />
+  <image name="EFFECT_FIRE_SHOOTER" path="media/textures/shooter_fire.png"/>
+  <image name="BUTTON_PAUSE" path="media/textures/hud_pause.png" />
+  <image name="BUTTON_PAGE_MENU" path="media/textures/butt_page_menu.png" />
+  <image name="BUTTON_PAGE_MAP" path="media/textures/butt_page_map.png" />
+  <image name="BUTTON_PAGE_TALENTS" path="media/textures/butt_page_talents.png" />
+  <image name="BUTTON_PAGE_ITEMS" path="media/textures/butt_page_items.png" />
+  <image name="BUTTON_LEVEL" path="media/textures/butt_level.png" />
+  <image name="BUTTON_CHECKBOX" path="media/textures/butt_checkbox.png"/>
+  <image name="UTIL_COIN" path="media/textures/hud_coin.png" />
+  <image name="UTIL_HEARTH" path="media/textures/hud_hearth.png" />
+  <image name="UTIL_RADIUS" path="media/textures/util_radius.png" />
+  <image name="UTIL_BEAM_RED_LIGHT" path="media/textures/beam_red_bg.png" />
+  <image name="UTIL_LIGHT" path="media/textures/util_light.png" />
+  <image name="UTIL_EMPTY" path="media/textures/util_empty.png" />
+  <image name="MENU_LEVEL_NODE" path="media/textures/menu_level_node.png" />
+  <image name="ICON_TOWER_PLASMA_MACHINE" path="media/textures/icon_tower_plasma_machine.png" />
+  <image name="ICON_TOWER_PLASMA_SNIPER" path="media/textures/icon_tower_plasma_sniper.png" />
+  <image name="ICON_SELL" path="media/textures/icon_sell.png" />
+  <image name="ICON_PLACEHOLDER" path="media/textures/icon_placeholder.png" />
+  <image name="GAMEOVER" path="media/textures/menu_gameover.png" />
+  <image name="MENU_TITLE" path="media/textures/menu_title.png" />
+  <image name="GUI_LOCK" path="media/textures/gui_lock.png" />
+  <image name="GUI_ICON_TALENT_BG" path="media/textures/gui_talent_bg.png" />
+  <image name="GUI_ICON_TALENT_PLASMA_DMGUP" path="media/textures/gui_talent_plasma_dmgup.png" />
+</textures>
+<text>
+  <string name="TEXT_BUTTON_RESUME" text="Resume" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_BUTTON_RESTART" text="Restart" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_BUTTON_MAINMENU" text="Main Menu" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_BUTTON_EXIT" text="Exit" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_BUTTON_LEVELS" text="Play" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_BUTTON_OPTIONS" text="Options" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_BUTTON_UPGRADES" text="Upgrades" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_BUTTON_ACHIEVMENTS" text="Achievments" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_BUTTON_RES_1" text="854 x 480 (16:9)" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_BUTTON_RES_2" text="1024 x 576 (16:9)" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_BUTTON_RES_3" text="1280 x 720 (16:9)" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_BUTTON_APPLY" text="Apply" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_TEMPORARY" text="All graphics is just temporary" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_BUTTON_NEXTWAVE" text="Next Wave" font="FONT_CALIBRI_LARGE" r="0" g="0" b="0" />
+  <string name="TEXT_BUTTON_SELL" text="Sell" font="FONT_CALIBRI_LARGE" r="0" g="0" b="0" />
+  <string name="TEXT_TOOLTIP_NOT_DONE" text="This section is not ready yet" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_NOT_READY_FUNCTION" text="This function is not ready yet" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_NOT_ENOUGH_MONEY" text="Not enough money" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_ERROR_BLOCK_TAKEN" text="Can not build there" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_OPTIONS_RESOLUTION" text="Resolution" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_OPTIONS_ENABLE_SOUND" text="Enable Sound" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255"/>
+  <string name="TEXT_OPTIONS_ENABLE_MUSIC" text="Enable Music" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255"/>
+    
+  <string name="TEXT_TOOLTIP_TOWER_STATS_DMG" text="Damage:" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_TOWER_STATS_RNG" text="Range:" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_TOWER_STATS_ATS" text="Atk. Spd.:" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_TOWER_STATS_PRC" text="Price:" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+
+  <string name="TEXT_TOOLTIP_ENEMY_STATS_HPS" text="Health:" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_ENEMY_STATS_WTH" text="Worth:" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_ENEMY_STATS_SPD" text="Speed:" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_ENEMY_SQUARE_NAME" text="Square" font="FONT_CALIBRI_NORMAL_BOLD" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_ENEMY_TRIANGLE_NAME" text="Triangle" font="FONT_CALIBRI_NORMAL_BOLD" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_ENEMY_CIRCLE_NAME" text="Circle" font="FONT_CALIBRI_NORMAL_BOLD" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_ENEMY_TRIPOD_NAME" text="Tripod" font="FONT_CALIBRI_NORMAL_BOLD" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_ENEMY_QUATROPOD_NAME" text="Quatropod" font="FONT_CALIBRI_NORMAL_BOLD" r="255" g="255" b="255" />
+    
+
+  <string name="TEXT_TOOLTIP_TOWER_STATS_SHOOTER_NAME" text="Shooter" font="FONT_CALIBRI_NORMAL_BOLD" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_TOWER_STATS_SHOOTER_DESC" text="Shoots bolts of plasma" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_TOWER_STATS_MACHINE_NAME" text="Machine gun" font="FONT_CALIBRI_NORMAL_BOLD" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_TOWER_STATS_MACHINE_DESC" text="Shoots bolts of plasma" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_TOWER_STATS_MACHINE_HEAVY_NAME" text="Heavy Machine Turret" font="FONT_CALIBRI_NORMAL_BOLD" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_TOWER_STATS_MACHINE_HEAVY_DESC" text="Stronger than Machine Turret" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_TOWER_STATS_SNIPER_NAME" text="Sniper" font="FONT_CALIBRI_NORMAL_BOLD" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_TOWER_STATS_SNIPER_DESC" text="Shoots bolts of plasma" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_TOWER_STATS_SNIPER_HEAVY_NAME" text="Heavy Sniper Turret" font="FONT_CALIBRI_NORMAL_BOLD" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_TOWER_STATS_SNIPER_HEAVY_DESC" text="Stronger than Sniper Turret" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_TOWER_STATS_BEAM_NAME" text="Beam Turret" font="FONT_CALIBRI_NORMAL_BOLD" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_TOWER_STATS_BEAM_DESC" text="Fires non-ending laser beam" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_TOWER_STATS_BEAM_DUAL_NAME" text="Dual-Beam Turret" font="FONT_CALIBRI_NORMAL_BOLD" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_TOWER_STATS_BEAM_DUAL_DESC" text="Can target 2 enemies" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_TOWER_STATS_BEAM_DUAL_HEAVY_NAME" text="Heavy Dual-Beam Turret" font="FONT_CALIBRI_NORMAL_BOLD" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_TOWER_STATS_BEAM_DUAL_HEAVY_DESC" text="Stronger than Dual-beam Turret" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_TOWER_STATS_PULSE_LASER_NAME" text="Pulse Laser Turret" font="FONT_CALIBRI_NORMAL_BOLD" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_TOWER_STATS_PULSE_LASER_DESC" text="Description is missing" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_TOWER_STATS_PULSE_LASER_HEAVY_NAME" text="Heavy Pulse Laser Turret" font="FONT_CALIBRI_NORMAL_BOLD" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_TOWER_STATS_PULSE_LASER_HEAVY_DESC" text="Stronger than Pulse Laser Turret" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_TOWER_STATS_COOLER_NAME" text="Cooling Turret" font="FONT_CALIBRI_NORMAL_BOLD" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_TOWER_STATS_COOLER_DESC" text="Slows the enemy" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_TOWER_STATS_MASS_COOLER_NAME" text="Mass Cooling Turret" font="FONT_CALIBRI_NORMAL_BOLD" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_TOWER_STATS_MASS_COOLER_DESC" text="Slows multiple enemies" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_TOWER_STATS_MASS_COOLER_HEAVY_NAME" text="Heavy Mass Cooler Turret" font="FONT_CALIBRI_NORMAL_BOLD" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_TOWER_STATS_MASS_COOLER_HEAVY_DESC" text="Stronger than Mass Cooler Turret" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_TOWER_STATS_FREEZER_NAME" text="Freezing Turret" font="FONT_CALIBRI_NORMAL_BOLD" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_TOWER_STATS_FREEZER_DESC" text="Freezes the enemy" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_TOWER_STATS_FREEZER_HEAVY_NAME" text="Heavy Freezing Turret" font="FONT_CALIBRI_NORMAL_BOLD" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_TOWER_STATS_FREEZER_HEAVY_DESC" text="Stronger than Freezing Turret" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_TOWER_STATS_MORTAR_NAME" text="Mortar Turret" font="FONT_CALIBRI_NORMAL_BOLD" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_TOWER_STATS_MORTAR_DESC" text="Deals instant area damage" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_TOWER_STATS_MORTAR_HEAVY_NAME" text="Heavy Mortar Turret" font="FONT_CALIBRI_NORMAL_BOLD" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_TOWER_STATS_MORTAR_HEAVY_DESC" text="Stronger than Mortar Turret" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_TOWER_STATS_ARTILLERY_NAME" text="Artillery Cannon" font="FONT_CALIBRI_NORMAL_BOLD" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_TOWER_STATS_ARTILLERY_DESC" text="Deals long-range area damage" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_TOWER_STATS_MISSILER_LAUNCHER_NAME" text="Missile Launcher" font="FONT_CALIBRI_NORMAL_BOLD" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_TOWER_STATS_MISSILER_LAUNCHER_DESC" text="Shoots rockets at enemies" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_TOWER_STATS_MISSILER_LAUNCHER_HEAVY_NAME" text="Heavy Missile Launcher" font="FONT_CALIBRI_NORMAL_BOLD" r="255" g="255" b="255" />
+  <string name="TEXT_TOOLTIP_TOWER_STATS_MISSILER_LAUNCHER_HEAVY_DESC" text="Stronget than Missile Launcher" font="FONT_CALIBRI_NORMAL" r="255" g="255" b="255" />
+</text>
